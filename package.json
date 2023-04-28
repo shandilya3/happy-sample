@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/aep-rules-engine",
+  "name": "Happy_Test_Lib",
   "version": "1.0.1",
   "description": "Adobe Experience Platform rules engine.",
   "repository": {
@@ -24,12 +24,10 @@
     "src/**/!(*.spec).ts"
   ],
   "scripts": {
-    "add-license": "node tools/add-license.cjs",
     "prebuild": "npm run clean && npm run lint",
     "build": "rollup -c",
     "clean": "rimraf dist types",
     "format": "prettier --write \"{src,test}/**/*.{js,cjs,mjs,ts}\" \"**/*.md\"",
-    "prelint": "npm run format && npm run add-license",
     "lint": "./node_modules/.bin/eslint src/**",
     "prepare": "husky install",
     "prepublishOnly": "rollup --config",
