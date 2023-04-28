@@ -1,10 +1,10 @@
 {
   "name": "Happy_Test_Lib",
   "version": "1.0.1",
-  "description": "Adobe Experience Platform rules engine.",
+  "description": "Testing.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adobe/aepsdk-rulesengine-typescript.git"
+    "url": "https://https://github.com/shandilya3/happy-sample.git"
   },
   "type": "module",
   "module": "dist/es/index.js",
@@ -28,15 +28,12 @@
     "build": "rollup -c",
     "clean": "rimraf dist types",
     "format": "prettier --write \"{src,test}/**/*.{js,cjs,mjs,ts}\" \"**/*.md\"",
-    "lint": "./node_modules/.bin/eslint src/**",
     "prepare": "husky install",
     "prepublishOnly": "rollup --config",
     "pretty-quick": "pretty-quick",
     "pretest": "npm run lint",
     "test": "NODE_ENV=development jest"
   },
-  "author": "Adobe",
-  "license": "Apache-2.0",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
