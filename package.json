@@ -30,8 +30,6 @@
     "format": "prettier --write \"{src,test}/**/*.{js,cjs,mjs,ts}\" \"**/*.md\"",
     "prepare": "husky install",
     "prepublishOnly": "rollup --config",
-    "pretty-quick": "pretty-quick",
-    "pretest": "npm run lint",
     "test": "NODE_ENV=development jest"
   },
   "devDependencies": {
