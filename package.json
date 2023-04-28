@@ -29,8 +29,7 @@
     "clean": "rimraf dist types",
     "format": "prettier --write \"{src,test}/**/*.{js,cjs,mjs,ts}\" \"**/*.md\"",
     "prepare": "husky install",
-    "prepublishOnly": "rollup --config",
-    "test": "NODE_ENV=development jest"
+    "prepublishOnly": "rollup --config"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
