@@ -6,7 +6,6 @@ build
 coverage
 checkstyle
 lib
-dist
 /types/
 es
 node_modules
